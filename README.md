@@ -1,58 +1,53 @@
 # 🕵️ Detect_IT
 
-**Detect_IT** is an all-in-one AI-powered mobile app built with Flutter that combines **image detection**, **math solving**, and **AI image generation** into a seamless experience. With Firebase backend integration and stunning UI animations via Rive, Detect_IT offers both functionality and flair.
+**Detect_IT** is a smart, all-in-one mobile app built with Flutter that uses Artificial Intelligence to deliver real-time **image detection**, **math solving**, and **AI image generation** features. The app also allows users to browse their gallery, capture images using the live camera, and interact with a beautiful UI enhanced by **Rive animations**.
 
 ---
 
-## 📱 App Overview
+## 🚀 Features
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1ec12d0c-aa47-4052-bc40-ca04edeed134" width="600" alt="Login and Registration">
-</p>
+- 🔐 **Login & Registration**
+  - Firebase Email/Password Authentication
+  - Google Sign-In integration
+  - Separate screens for login and registration
 
-### Key Functionalities
+- 🖼️ **Gallery Access**
+  - Requests permission and displays all local images in a structured grid
+  - Supports image selection for detection or analysis
 
-- 🔐 **Login & Registration**  
-  Secure authentication using Firebase Email/Password and Google Sign-In.  
-  Supports user-friendly UI with Rive animations.
+- 📷 **Live Camera Capture**
+  - Capture real-time photos directly from the device's camera
+  - Use captured photos for detection or solving tasks
 
-- 🖼️ **Gallery Access & Camera Capture**  
-  - Requests permission and displays all local images.  
-  - Allows image capture using the device’s camera.  
+- 🤖 **Image Detection**
+  - Analyze and classify objects within any selected or captured image
+  - Displays detected labels with confidence scores
 
-<p align="center">
-  <img src="screenshots/gallery_camera.png" width="600" alt="Gallery and Camera">
-</p>
+- ➗ **Math Solver**
+  - Scan handwritten or printed math problems
+  - Returns step-by-step solutions using OCR and AI
 
-- 🤖 **Image Detection**  
-  Select or capture an image and detect content using an integrated ML model (e.g., TFLite or Firebase ML).
+- 🎨 **AI Image Generator**
+  - Enter a text prompt and generate high-quality images using AI APIs
 
-<p align="center">
-  <img src="screenshots/classification_drawer.png" width="600" alt="Classification and Drawer">
-</p>
-
-- 🧠 **Math Solver**  
-  Snap a picture of a math problem and get step-by-step solutions using OCR and custom math logic or APIs.
-
-- 🎨 **AI Image Generator**  
-  Enter a text prompt and generate images using APIs like DALL·E or Stable Diffusion.
-
-- 🌐 **Navigation Drawer**  
-  Smooth navigation drawer with access to Home, Features, Profile, About Us, and Logout.
+- 🎮 **Smooth UI/UX**
+  - Rive animations for loaders, transitions, and states
+  - Custom drawer navigation with pages like Home, Profile, Features, and About Us
 
 ---
 
-## 🔧 Tech Stack
+## 🛠️ Tech Stack
 
-| Component      | Technology                    |
-|----------------|-------------------------------|
-| Frontend       | Flutter (Dart)                |
-| Backend        | Firebase Auth, Firestore, Storage |
-| Animations     | Rive                          |
-| Detection      | TensorFlow Lite / ML Kit      |
-| Math Solver    | OCR + Math API / Logic        |
-| Image Gen      | AI APIs (DALL·E / Custom)     |
-| State Mgmt     | Provider / Riverpod           |
+| Technology    | Usage                                 |
+|---------------|----------------------------------------|
+| Flutter       | Cross-platform app development         |
+| Firebase      | Auth, Firestore, and Storage backend   |
+| Rive          | Animations and UI effects              |
+| Camera        | Live image capture                     |
+| Image Picker  | Gallery image selection                |
+| ML Kit / TFLite | Object detection and math solving    |
+| REST APIs     | For AI image generation or math APIs   |
+| Provider      | State management                       |
 
 ---
 
