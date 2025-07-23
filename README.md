@@ -39,7 +39,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
     ```sh
     git clone https://github.com/AdityaJandu/Detect_It.git
-    cd Detect_IT
+    cd Detect_It
     ```
 
 2.  **Set up Firebase:**
