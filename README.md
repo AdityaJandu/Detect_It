@@ -7,7 +7,7 @@
 ## 📱 App Overview
 
 <p align="center">
-  <img src="screenshots/login_register.png" width="600" alt="Login and Registration">
+  <img src="https://github.com/user-attachments/assets/1ec12d0c-aa47-4052-bc40-ca04edeed134" width="600" alt="Login and Registration">
 </p>
 
 ### Key Functionalities
