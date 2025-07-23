@@ -1,38 +1,60 @@
 # 🕵️ Detect_IT
 
-**Detect_IT** is a smart detection app built with Flutter, Firebase, and integrated Machine Learning to help users identify **[insert what it detects — e.g., inappropriate content, skin diseases, objects, etc.]**. Designed for performance and user engagement, it also uses **Rive animations** to deliver a smooth and modern UI experience.
+**Detect_IT** is an all-in-one AI-powered mobile app built with Flutter that combines **image detection**, **math solving**, and **AI image generation** into a seamless experience. With Firebase backend integration and stunning UI animations via Rive, Detect_IT offers both functionality and flair.
 
-## ✨ Features
+---
 
-- 📷 Real-time detection via camera or image picker
-- 🧠 On-device ML model integration (e.g., TensorFlow Lite / ML Kit)
-- ☁️ Firebase Authentication, Firestore, and Cloud Storage
-- 🧾 Detection history tracking per user
-- 🎨 Smooth Rive animations for transitions, loaders, empty states, and success/failure screens
-- 📱 Fully responsive across Android & iOS
-- 🔐 Role-based UI/UX (optional if applicable)
+## 📱 App Overview
 
-## 📽️ Built With
+<p align="center">
+  <img src="screenshots/login_register.png" width="600" alt="Login and Registration">
+</p>
 
-- **Flutter** – Cross-platform UI toolkit
-- **Firebase** – Authentication, Firestore, Storage
-- **Rive** – Real-time animations in Flutter
-- **ML Model** – [Insert your ML framework here]
-- **State Management** – Provider / Riverpod / Bloc
+### Key Functionalities
 
-## 📸 Screenshots
+- 🔐 **Login & Registration**  
+  Secure authentication using Firebase Email/Password and Google Sign-In.  
+  Supports user-friendly UI with Rive animations.
 
-| Home Screen | Detection Animation | Result |
-|-------------|---------------------|--------|
-| ![Home](screenshots/home.png) | ![Rive](screenshots/animation.png) | ![Result](screenshots/result.png) |
+- 🖼️ **Gallery Access & Camera Capture**  
+  - Requests permission and displays all local images.  
+  - Allows image capture using the device’s camera.  
 
-## 🧩 How It Works
+<p align="center">
+  <img src="screenshots/gallery_camera.png" width="600" alt="Gallery and Camera">
+</p>
 
-1. User opens the app and is greeted with a Rive-powered intro animation.
-2. User captures or selects an image.
-3. The image is analyzed using the embedded ML model.
-4. Detection results are shown with animated feedback using Rive.
-5. History is stored in Firebase per user account.
+- 🤖 **Image Detection**  
+  Select or capture an image and detect content using an integrated ML model (e.g., TFLite or Firebase ML).
+
+<p align="center">
+  <img src="screenshots/classification_drawer.png" width="600" alt="Classification and Drawer">
+</p>
+
+- 🧠 **Math Solver**  
+  Snap a picture of a math problem and get step-by-step solutions using OCR and custom math logic or APIs.
+
+- 🎨 **AI Image Generator**  
+  Enter a text prompt and generate images using APIs like DALL·E or Stable Diffusion.
+
+- 🌐 **Navigation Drawer**  
+  Smooth navigation drawer with access to Home, Features, Profile, About Us, and Logout.
+
+---
+
+## 🔧 Tech Stack
+
+| Component      | Technology                    |
+|----------------|-------------------------------|
+| Frontend       | Flutter (Dart)                |
+| Backend        | Firebase Auth, Firestore, Storage |
+| Animations     | Rive                          |
+| Detection      | TensorFlow Lite / ML Kit      |
+| Math Solver    | OCR + Math API / Logic        |
+| Image Gen      | AI APIs (DALL·E / Custom)     |
+| State Mgmt     | Provider / Riverpod           |
+
+---
 
 ## 🛠️ Installation
 
